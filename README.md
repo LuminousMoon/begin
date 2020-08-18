@@ -2,6 +2,7 @@
 #include<math.h>
 
 //二维热传导方程为: dT/dt = a *( d(dT/dx)/dx + d(dT/dy)/dy )
+
 //边界条件均采用第三类边界条件: dT/dn = h * (T - 298) / ( -k )
 
 int main() {
